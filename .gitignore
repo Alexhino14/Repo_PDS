@@ -1,2 +1,16 @@
-env/ 
-__pycache__/ 
+# Ignorar caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de entorno virtual
+venv/
+.env/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos comprimidos
+*.zip
